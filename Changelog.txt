@@ -1,6 +1,6 @@
-1.8.1
+1.9.1
 
 	- MOD adopted by leatherneck6017
-	- Compile against KSP 1.8.1 and NET 4.7.2
+	- Compile against KSP 1.9.1 and NET 4.7.2
 	- Add .sln and .csproj
 	- Add changelog

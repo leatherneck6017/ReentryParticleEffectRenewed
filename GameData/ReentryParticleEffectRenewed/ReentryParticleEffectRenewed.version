@@ -1,7 +1,7 @@
 {
   "NAME": "ReentryParticleEffectRenewed",
   "URL": "https://raw.githubusercontent.com/leatherneck6017/ReentryParticleEffectRenewed/master/GameData/ReentryParticleEffectRenewed/ReentryParticleEffectRenewed.version",
-  "DOWNLOAD": "https://spacedock.info/mod/2071/Moar%20Filter%20Extension%20Configs",
+  "DOWNLOAD": "https://spacedock.info/mod/2373/Reentry%20Particle%20Effect%20Renewed",
   "GITHUB": {
     "USERNAME": "leatherneck6017",
     "REPOSITORY": "ReentryParticleEffectRenewed",
@@ -9,9 +9,9 @@
   },
   "VERSION": {
     "MAJOR": 1,
-    "MINOR": 0,
-    "PATCH": 5,
-    "BUILD": 2
+    "MINOR": 9,
+    "PATCH": 1,
+    "BUILD": 0
   },
   "KSP_VERSION_MIN": {
     "MAJOR": 1,
