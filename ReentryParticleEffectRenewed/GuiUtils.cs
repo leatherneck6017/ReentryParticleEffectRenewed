@@ -5,7 +5,7 @@ using System.Text;
 using UnityEngine;
 using System.Text.RegularExpressions;
 
-namespace ReentryParticleEffect
+namespace ReentryParticleEffectRenewed
 {
     public static class GuiUtils
     {
@@ -136,14 +136,14 @@ namespace ReentryParticleEffect
         /// </summary>
         public void OnGUI()
         {
-            if (ReentryParticleEffect.DrawGui)
-                windowPos = GUILayout.Window(GetInstanceID(), windowPos, MainGUI, "Reentry Particle Effect", GUILayout.Width(600), GUILayout.Height(50));
+            if (ReentryParticleEffectRenewed.DrawGui)
+                windowPos = GUILayout.Window(GetInstanceID(), windowPos, MainGUI, "Reentry Particle Effect Renewed", GUILayout.Width(600), GUILayout.Height(50));
         }
         private static void MainGUI(int windowID)
         {
             GUILayout.BeginVertical();
 
-            ReentryParticleEffect.Gui();
+            ReentryParticleEffectRenewed.Gui();
 
             GUILayout.EndVertical();
             GUI.DragWindow();

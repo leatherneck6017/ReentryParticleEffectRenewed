@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace ReentryParticleEffect
+namespace ReentryParticleEffectRenewed
 {
     /*
      * BUGS
@@ -15,7 +15,7 @@ namespace ReentryParticleEffect
      * Trail too short?
      */
     [KSPAddon(KSPAddon.Startup.Flight, false)]
-    public class ReentryParticleEffect : MonoBehaviour
+    public class ReentryParticleEffectRenewed : MonoBehaviour
     {
         public Vector3 velocity;
         public static int MaxParticles = 3000;
