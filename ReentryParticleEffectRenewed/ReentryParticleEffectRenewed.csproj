@@ -71,4 +71,7 @@
     <Compile Include="ReentryParticleEffect.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetDir)$(TargetFileName)" "$(SolutionDir)GameData\ReentryParticleEffectRenewed\Plugin"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
